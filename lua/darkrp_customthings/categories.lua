@@ -20,4 +20,11 @@ DarkRP.createCategory{
 
 Add new categories under the next line!
 ---------------------------------------------------------------------------]]
-
+DarkRP.createCategory{
+name = "Owner",
+categorises = "jobs",
+startExpanded = true,
+color = Color(200, 20, 20, 255),
+canSee = function(ply) return true end,
+sortOrder = 100,
+}
