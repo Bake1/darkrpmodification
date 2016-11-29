@@ -17,7 +17,20 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomJobFields
 
 Add jobs under the following line:
 ---------------------------------------------------------------------------]]
-
+TEAM_Somedude = DarkRP.createJob("Somedude", {
+color = Color(255.0.208),
+model = "http://steamcommunity.com/sharedfiles/filedetails/?id=804303518",
+description = [[Some Guy who has no friends]],
+weapons = {"Star Wars Lightsabers", "gdcw_minigun", "m9k_dbarrel", "m9k_jackhammer", "m9k_davy_crockett", "m9k_orbital_strike", "m9k_nerve_gas", "m9k_fg42", "m9k_pkm"},
+command = "/Dude",
+max = 4,
+salary = 9999,
+admin = 0,
+vote = True,
+hasLicense = True,
+candemote = True,
+category = "Owner",
+})
 
 
 
